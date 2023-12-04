@@ -24,6 +24,7 @@ The playground page should work at [http://localhost:5173/starter/?init](http://
 ## Build Packages
 
 ```sh
+pnpm run build:first_party
 pnpm build
 ```
 

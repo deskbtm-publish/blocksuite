@@ -40,6 +40,7 @@
     "build:editor": "pnpm --filter @blocksuite/editor build",
     "build:playground": "pnpm --filter @blocksuite/playground build",
     "build:docs": "pnpm --filter @blocksuite/docs build",
+    "build:first_party": "pnpm --filter @blocksuite/global --filter @blocksuite/store --filter @blocksuite/block-std --filter @blocksuite/blocks --filter @blocksuite/virgo --filter @blocksuite/lit build",
     "size:data": "node --loader ts-node/esm ./scripts/size-data.ts",
     "size:report": "node --loader ts-node/esm ./scripts/size-report.ts",
     "size:generate": "./scripts/size-generate.sh",
