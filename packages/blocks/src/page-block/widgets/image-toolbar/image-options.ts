@@ -123,7 +123,7 @@ export function ImageOptionsTemplate({
           size="32px"
           ?hidden=${readonly ||
           !blob ||
-          !model.page.awarenessStore.getFlag('enable_bultin_ledits')}
+          !model.page.awarenessStore.getFlag('enable_builtin_ledits')}
           @click="${() => {
             if (!blob) return;
             abortController.abort();

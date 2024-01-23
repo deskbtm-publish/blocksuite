@@ -55,7 +55,7 @@ export interface StoreOptions<
 const FLAGS_PRESET = {
   enable_legacy_validation: true,
   enable_expand_database_block: false,
-  enable_bultin_ledits: false,
+  enable_builtin_ledits: false,
   readonly: {},
 } satisfies BlockSuiteFlags;
 

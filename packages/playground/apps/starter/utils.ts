@@ -126,7 +126,7 @@ export function createWorkspaceOptions(): WorkspaceOptions {
     idGenerator,
     blobStorages,
     defaultFlags: {
-      enable_bultin_ledits: featureArgs.includes('ledits'),
+      enable_builtin_ledits: featureArgs.includes('ledits'),
       readonly: {
         'page:home': false,
       },
